@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.html {
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+  background-color:  #8A2BE2;
+}
+
+h1 {
+  text-transform: uppercase;
+  
+  padding: 1rem;
+  font-size: 5rem;
+  color: #00FFFF;
+  font-family: 'Shadows Into Light', cursive;
+  
+}
+
+footer {
+  min-height: 5vh;
+  
+  
+}
+footer p {
+  color: #00FFFF;
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
+}
+.w {
+  background: url(./images/tom1.png);
+  
+}
+
+.a {
+  background: url(./images/tom2.png);
+
+}
+
+.s {
+  background: url(./images/tom3.png);
+
+}
+
+.d {
+  background: url(./images/tom4.png);
+
+}
+
+.j {
+  background: url(./images/kick.png);
+
+}
+
+.k {
+  background: url(./images/crash.png);
+
+}
+
+.l {
+  background: url(./images/snare.png);
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
+  
+  background-origin: content-box;
+  outline: none;
+  border: 10px solid #FFD700;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #00FFFF;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+@media (max-width: 680px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
